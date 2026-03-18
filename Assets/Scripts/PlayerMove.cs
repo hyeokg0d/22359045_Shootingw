@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float spd = 5f;
 
     void Update()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
 
-        Vector3 dir = new Vector3(h, 0f, v).normalized;
-
-        transform.position += dir * moveSpeed * Time.deltaTime;
+        //Vector3 dir = Vector3.right * h + Vector3.up * v;
+        Vector3 dir = new Vector3(h, v, 0);
+        //transform.Translate(dir * spd * Time.deltaTime);
+        transform.position = transform.position + dir * spd * Time.deltaTime;
     }
 }
