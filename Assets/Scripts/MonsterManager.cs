@@ -22,12 +22,12 @@ public class MonsterManager : MonoBehaviour
     {
         nowTime = nowTime + Time.deltaTime;
 
-        if(nowTime > createTime)
+        if (nowTime > createTime)
         {
-        GameObject monster = Instantiate(prefabsMonster);
-        monster.transform.position = transform.position;
+            GameObject monster = Instantiate(prefabsMonster);
+            monster.transform.position = transform.position;
 
-        createTime = Random.Range(minTime, maxTime);
+            createTime = Random.Range(minTime, maxTime);
         }
     }
 }
