@@ -1,4 +1,6 @@
-# Unity generated folders
+# =========================
+# Unity Generated Folders
+# =========================
 Library/
 Temp/
 Obj/
@@ -7,26 +9,43 @@ Builds/
 Logs/
 UserSettings/
 
+# =========================
 # Visual Studio / Rider
+# =========================
+.vs/
 *.csproj
 *.unityproj
 *.sln
+*.suo
 *.user
 *.userprefs
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Unity meta auto
 *.pidb
 *.booproj
 
-# Build files
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Unity Cache / Logs
+# =========================
+*.log
+*.stacktrace
+
+# =========================
+# Build Files
+# =========================
 *.apk
 *.aab
 *.exe
 *.ipa
 
-# Crash logs
-*.log
+# =========================
+# Optional (Large Files)
+# =========================
+*.psd
+*.fbx
+*.wav
+*.mp4
