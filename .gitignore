@@ -1,0 +1,32 @@
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# Visual Studio / Rider
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unity meta auto
+*.pidb
+*.booproj
+
+# Build files
+*.apk
+*.aab
+*.exe
+*.ipa
+
+# Crash logs
+*.log
