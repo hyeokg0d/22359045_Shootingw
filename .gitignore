@@ -29,7 +29,7 @@ UserSettings/
 Thumbs.db
 
 # =========================
-# Unity Cache / Crash
+# Unity Cache / Logs
 # =========================
 *.log
 *.stacktrace
@@ -43,7 +43,7 @@ Thumbs.db
 *.ipa
 
 # =========================
-# Optional (큰 파일 관리용)
+# Optional (Large Files)
 # =========================
 *.psd
 *.fbx
