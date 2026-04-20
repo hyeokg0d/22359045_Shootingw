@@ -1,0 +1,51 @@
+# =========================
+# Unity Generated Folders
+# =========================
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# =========================
+# Visual Studio / Rider
+# =========================
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Unity Cache / Crash
+# =========================
+*.log
+*.stacktrace
+
+# =========================
+# Build Files
+# =========================
+*.apk
+*.aab
+*.exe
+*.ipa
+
+# =========================
+# Optional (큰 파일 관리용)
+# =========================
+*.psd
+*.fbx
+*.wav
+*.mp4

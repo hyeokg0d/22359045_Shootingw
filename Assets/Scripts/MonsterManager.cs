@@ -27,6 +27,7 @@ public class MonsterManager : MonoBehaviour
             GameObject monster = Instantiate(prefabsMonster);
             monster.transform.position = transform.position;
 
+            nowTime = 0f;
             createTime = Random.Range(minTime, maxTime);
         }
     }
